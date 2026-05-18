@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"$body = '{\\\"source\\\":{\\\"branch\\\":\\\"main\\\",\\\"path\\\":\\\"/\\\"}}'; $tmpFile = [System.IO.Path]::GetTempFileName(); Set-Content -Path $tmpFile -Value $body -Encoding utf8; gh api repos/Duy1312/fi...",
+  "error": "Exit code 1\n{\"message\":\"Problems parsing JSON\",\"documentation_url\":\"https://docs.github.com/rest/pages/pages#create-a-apiname-pages-site\",\"status\":\"400\"}gh : gh: Problems parsing JSON (HTTP 400)\r\nAt line:1 char:156\r\n+ ... oding utf8; gh api repos/Duy1312/fibonaccireview-legal/pages --method ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (gh: Problems parsing JSON (HTTP 400):String) [], RemoteException\r\n    + FullyQual...",
+  "timestamp": "2026-05-18T07:18:01.705Z",
+  "retry_count": 3
+}
